@@ -3,7 +3,9 @@
 Welcome! This website/repository is a resource where I will attempt to dump everything I believe is necessary to get a grad student with little programming experience, who is interested in using Python for their data analysis, up and running.
 
 ## Table Of Contents
-1. [Set up on my machine](/Setup/Overview.md)
-2. [Python Basics](/Basics/Overview.md)
-3. [Jupyter Notebooks](/Jupyter/Overview.md)
+1. [Jupyter Notebooks](/Jupyter/Overview.md)
+2. [Python Basics & Comparisons with R and Stata](/Basics/Overview.md)
 4. [Pandas](/Pandas/Overview.md)
+
+## Sources
+- [How to Use Jupyter Notebook: A Beginner’s Tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
