@@ -6,7 +6,7 @@ A Jupyter notebook is an all-in-one document that lets you write code for data a
 Navigate to the relases on their [Github Page](https://github.com/jupyterlab/jupyterlab-desktop/releases) and search for the platform you use. If you're using an Intel mac then click on the one that says `x64` if you use the newer mac then click one the one that says `arm`. Remember to click on the `.dmg` file, not the `.zip`
 
 ## Using a Jupyter notebook to import data
-todo
+There are several ways to import data into a notebook. The first thing you'll want to do is figure out what sort of format your data is in. 
 
 ## How does a Jupyter notebook work?
 A notebook is made up of cells which run code that you write. Additionally, you can also write markdown in this cells to explain or document what you're doing
