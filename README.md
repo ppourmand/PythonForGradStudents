@@ -4,8 +4,9 @@ Welcome! This website/repository is a resource where I will attempt to dump ever
 
 ## Table Of Contents
 1. [Jupyter Notebooks](/Jupyter/Overview.md)
-2. [Python Basics & Comparisons with R and Stata](/Basics/Overview.md)
+2. [Python Basics & Comparisons with R and Stata](/Basics/TableOfContents.md)
 4. [Pandas](/Pandas/Overview.md)
 
 ## Sources
 - [How to Use Jupyter Notebook: A Beginner’s Tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
+- [Pandas Exercises](https://github.com/guipsamora/pandas_exercises#getting-and-knowing)

@@ -1,9 +1,3 @@
-# Table Of Contents
-- [Data types](DataTypes.md)
-- [Lists](Lists.md)
-- [Loops](Loops.md)
-- [Strings](Strings.md)
-
 ## Variables and Data Types
 In Python, every value has an associated type with it. For instance:
 

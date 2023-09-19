@@ -11,7 +11,7 @@ Lets say your data looks like the following:
 my_data = ["car", "house", "plane"]
 ```
 
-From our [lists](/Basics/Lists.md) overview, we know that this is a list of 3 strings. Maybe we want to add the word "my" to every single item in this list like `my car` and `my house`. Logically we would want to go through each word and do it ourselves, right? Python makes this easier for us with what's called a `for loop`
+From our [lists](Lists.md) overview, we know that this is a list of 3 strings. Maybe we want to add the word "my" to every single item in this list like `my car` and `my house`. Logically we would want to go through each word and do it ourselves, right? Python makes this easier for us with what's called a `for loop`
 
 Here's what a for loop that would achieve what we want looks like
 
