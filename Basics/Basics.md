@@ -112,9 +112,38 @@ Basically the flow of this is that Python checks the first condition, if it's no
 > ```Python
 > number_of_potatoes = 5
 > if number_of_potatoes == 0:
->   print("We have no potatoes")
+>     print("We have no potatoes")
 > else:
 >     if number_of_potatoes < 5:
 >         print("We have 5 or more potatoes!")
 > ```
 > This looks way more complicated though so using `elif` is the way to go
+
+## Functions
+Functions are a concept that are most used as a way to package up a series of steps that you want to be easily used anywhere.
+
+As an example, let's say you want to add two numbers
+
+```Python 
+first_number = 5
+second_number = 10
+
+sum_of_two_numbers = first_number + second_number
+```
+
+That's cool, but what if you want to add _any_ two numbers together? You would have to copy and paste every time you wanted to do that and your code would look immensely messy. Functions are here to save the day:
+
+```Python
+def add_two_numbers(first_number, second_number):
+    sum_of_two_numbers = first_number + second_number
+    return sum_of_two_numbers
+
+# now we can call our function with anything!
+variable_to_hold_sum = add_two_numbers(5, 10)
+another_variable_to_hold_sum = add_two_numbers(1, 2)
+yet_another_variable_to_hold_sum = add_two_numbers(100, 500)
+```
+
+Lets break down the above snippet into parts. First is the keyword `def`. Using this tells Python that we're going to create a function and name it the following name: `add_two_numbers`. In the parenthesis, we can list our `parameters` which can be thought of as inputs into the function. In the body of the fuction we have our summation line and then we have another keyword `return`. This keyword tells Python that this function will return some value that can be assigned.
+
+You can see on the lines following the function we call the function 3 times, giving different parameters each time and assigning the values of those calls to the variables `variable_to_hold_sum`, `another_variable_to_hold_sum`, and `yet_another_variable_to_hold_sum`
