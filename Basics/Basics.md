@@ -49,3 +49,26 @@ bar = 10.5
 ```
 
 A comment needs to start with the `#` character on each line you want the comment. You can use comments to temporarily "delete" lines too that you may want to bring back at some later point but don't want to deal with the hassle of copy/pasting it to another document and then bringing it back
+
+## Flow Control
+The concept of flow control is what makes programming so powerful. Yes we could try to code things in one big series of instructions but that will get unwieldy quickly. With flow control we can do actions based on conditions, think of a flow chart:
+
+```mermaid
+graph TD;
+    Start-->a[Am I hungry?];
+    a[Am I hungry?]-->Yes;
+    a[Am I hungry?]-->No;
+    No-->b[Go outside];
+    Yes-->c[Go get some food]
+```
+
+The condition here would be the question `Am I hungry?`. We can represent the above chart in Python code as well:
+
+```Python
+if am_i_hungry:
+    eat()
+else:
+    go_outside()
+```
+
+The first line checks a variable called `am_i_hungry`, which can evaluate to `True` or `False`. If the value is `True` it goes inside the `if` and calls the function `eat()`. If the `am_i_hungry` variable is `False`, however, the control flow falls to the `else` and drops into it, resulting in the `go_outside()` function to be called instead
