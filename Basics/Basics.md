@@ -53,14 +53,7 @@ A comment needs to start with the `#` character on each line you want the commen
 ## Flow Control
 The concept of flow control is what makes programming so powerful. Yes we could try to code things in one big series of instructions but that will get unwieldy quickly. With flow control we can do actions based on conditions, think of a flow chart:
 
-```mermaid
-graph TD;
-    Start-->a[Am I hungry?];
-    a[Am I hungry?]-->Yes;
-    a[Am I hungry?]-->No;
-    No-->b[Go outside];
-    Yes-->c[Go get some food]
-```
+![Alt text](image.png)
 
 The condition here would be the question `Am I hungry?`. We can represent the above chart in Python code as well:
 
@@ -72,3 +65,56 @@ else:
 ```
 
 The first line checks a variable called `am_i_hungry`, which can evaluate to `True` or `False`. If the value is `True` it goes inside the `if` and calls the function `eat()`. If the `am_i_hungry` variable is `False`, however, the control flow falls to the `else` and drops into it, resulting in the `go_outside()` function to be called instead
+
+### Comparison Operators
+In order to make this `if/else` structure even more powerful, we have things called comparison operators:
+
+- `==`, or "equal to"
+- `!=`, or "not equal to"
+- `<`, or "less than"
+- `>`, or "greater than"
+- `<=`, or "less than or equal to"
+- `>=`, or "greater than or equal to"
+
+You can now use these to compare two different variables. For instance:
+
+```Python
+number_of_potatoes = 5
+
+if number_of_potatoes == 5:
+    print("Number of potatoes is equal to 5!")
+else:
+    print("Number of potatoes is NOT equal to 5!")
+```
+
+which results in
+
+```
+Number of potatoes is equal to 5!
+```
+
+Additionally, we can do a if/else with more than two condition checks, this is called `if, elif, else` ()
+
+```Python
+number_of_potatoes = 5
+
+if number_of_potatoes == 0:
+    print("We have no potatoes")
+elif number of potatoes < 5:
+    print("We have less than 5 potatoes")
+else:
+    print("We have 5 or more potatoes)
+```
+
+Basically the flow of this is that Python checks the first condition, if it's not satisfied, it will move to the next one and continue in that fashion until it reaches a condition that is satisfied. The `else` is also optional; you can leave it off if you dont want a catch-all condition
+
+> **_NOTE:_**  `elif` can be thought of as a combination/shorthand "else-if" and be written out like:
+> ```Python
+> number_of_potatoes = 5
+> if number_of_potatoes == 0:
+>   print("We have no potatoes")
+> else:
+>     if number_of_potatoes < 5:
+>         print("We have 5 or more potatoes!")
+> ```
+> This looks way more complicated though so using `elif` is the way to go
