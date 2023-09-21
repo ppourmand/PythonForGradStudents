@@ -10,3 +10,4 @@ Welcome! This website/repository is a resource where I will attempt to dump ever
 ## Sources
 - [How to Use Jupyter Notebook: A Beginner’s Tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
 - [Pandas Exercises](https://github.com/guipsamora/pandas_exercises#getting-and-knowing)
+- [Automate the Boring Stuff](https://automatetheboringstuff.com)
