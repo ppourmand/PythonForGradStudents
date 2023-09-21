@@ -63,9 +63,11 @@ Join and split are interesting since they do the opposite of each other: split s
 
 ```Python
 >>> a_sentence = "hello everyone this is a sentence"
->>> a_sentence.split(" ")
+>>> a_list = a_sentence.split(" ")
+>>> a_list
 ["hello", "everyone", "this", "is", "a", "sentence"]
->>> a_sentence.join("-")
+>>> a_new_sentence = a_list.join("-")
+>>> a_new_sentence
 "hello-everyone-this-is-a-sentence"
 ```
 
